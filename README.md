@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This repo contains the code from paper XXX. This guide explains how to set it up on you machine to train a MRI-to-CT translation model on your own data. 
+This repo contains the code from paper XXX. This guide explains how to download it on your device and train a MRI-to-CT translation model with your own data. 
 
 ## Download
 
-  git clone ......
+    git clone ......
 
 ** test **
 
