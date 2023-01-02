@@ -6,7 +6,7 @@ This repo contains the code from paper XXX. This guide is here to help you run t
 
 ## Download
 
-    git clone ......
+            git clone https://github.com/MatDagommer/mri-to-ct.git
 
 ** test **
 
