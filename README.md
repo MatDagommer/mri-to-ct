@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repo contains the code from paper XXX. This guide is here to help you run the code on your device, and train a MRI-to-CT translation model. 
+This repo contains the code from paper XXX. This guide is here to help you run the code on your device, and train a MRI-to-CT translation model. If you intend to use this program for your research, please cite the paper.
 
 ## Prerequesites
 
