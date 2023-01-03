@@ -26,5 +26,8 @@ In the folder ``` /data/raw_data ```, create a folder for each subject containin
 * ``` skull_SAMSEG_resliced.nii ``` (Skull Mask)
 * ``` T1_resliced.nii ``` (T1-MRI)
 
+## Cite
+
+## References
 
 
