@@ -15,7 +15,14 @@ Make sure your Python environment verifies:
 
     git clone https://github.com/MatDagommer/mri-to-ct.git
 
-** test **
+## Data
 
-* test2 *
+In '''data/raw_data/''', create a folder for each subject containing 4 NIfTI files:
+
+* CT (CTlnT1_resliced.nii)
+* pseudo-CT (pCTlnT1_resliced.nii)
+* Skull Mask (skull_SAMSEG_resliced.nii)
+* T1-MRI (T1_resliced.nii)
+
+
 
