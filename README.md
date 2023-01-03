@@ -19,10 +19,10 @@ Make sure your Python environment verifies:
 
 In the folder ``` /data/raw_data ```, create a folder for each subject containing 4 NIfTI files:
 
-* CT (CTlnT1_resliced.nii)
-* pseudo-CT (pCTlnT1_resliced.nii)
-* Skull Mask (skull_SAMSEG_resliced.nii)
-* T1-MRI (T1_resliced.nii)
+* ``` CTlnT1_resliced.nii ``` (CT)
+* ``` pCTlnT1_resliced.nii ``` (pseudo-CT)
+* ``` skull_SAMSEG_resliced.nii ``` (Skull Mask)
+* ``` T1_resliced.nii ``` (T1-MRI)
 
 
 
