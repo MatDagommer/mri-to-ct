@@ -10,6 +10,8 @@ Make sure your Python environment verifies:
     
     Python >= 3.9
     Tensorflow >= 2.8.0
+    CUDA >= 11.2
+    cudnn >= XX
 
 ## Download
 
