@@ -17,7 +17,7 @@ Make sure your Python environment verifies:
 
 ## Data
 
-In ``` data/raw_data/ ```, create a folder for each subject containing 4 NIfTI files:
+In the folder ``` /data/raw_data ```, create a folder for each subject containing 4 NIfTI files:
 
 * CT (CTlnT1_resliced.nii)
 * pseudo-CT (pCTlnT1_resliced.nii)
