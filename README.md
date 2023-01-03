@@ -42,6 +42,28 @@ In the folder ``` /data/raw_data ```, create a folder for each subject containin
 * ``` skull_SAMSEG_resliced.nii ``` (Skull Mask)
 * ``` T1_resliced.nii ``` (T1-MRI)
 
+## Preprocessing
+
+To start default preprocessing of the data, run:
+
+    python preprocessing.py --dataset <nameOfDataset>
+
+You can customize data preprocessing. For more information on the different options, run:
+
+    python preprocessing.py --help
+    
+The resulting preprocessed data is stored in ``` /data/datasets/<nameOfDataset> ```.
+
+## Training
+
+Run the following line to train the default model:
+
+    python train.py --dataset <nameOfDataset> --name <nameOfModel>
+
+## Retrieve results
+
+In the folder ```/notebooks```, you will find result acquisition notebooks from the paper. You can use them as examples to load and plot your own results.
+
 ## References
 
 [1] Izquierdo-Garcia, D., Hansen, A. E., Förster, S., Benoit, D., Schachoff, S., Fürst, S., ... & Catana, C. (2014). An SPM8-based approach for attenuation correction combining segmentation and nonrigid template formation: application to simultaneous PET/MR brain imaging. Journal of Nuclear Medicine, 55(11), 1825-1830.
