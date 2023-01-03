@@ -4,16 +4,16 @@
 
 This repo contains the code from paper XXX. This guide is here to help you run the code on your device, and train a MRI-to-CT translation model. If you intend to use this program for your research, use the citation below:
 
-@article{lundervold2019overview,
-  title={An overview of deep learning in medical imaging focusing on MRI},
-  author={Lundervold, Alexander Selvikv{\aa}g and Lundervold, Arvid},
-  journal={Zeitschrift f{\"u}r Medizinische Physik},
-  volume={29},
-  number={2},
-  pages={102--127},
-  year={2019},
-  publisher={Elsevier}
-}
+    @article{lundervold2019overview,
+      title={An overview of deep learning in medical imaging focusing on MRI},
+      author={Lundervold, Alexander Selvikv{\aa}g and Lundervold, Arvid},
+      journal={Zeitschrift f{\"u}r Medizinische Physik},
+      volume={29},
+      number={2},
+      pages={102--127},
+      year={2019},
+      publisher={Elsevier}
+    }
 
 ## Prerequesites
 
