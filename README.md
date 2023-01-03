@@ -28,7 +28,12 @@ Make sure your Python environment verifies:
 
     git clone https://github.com/MatDagommer/mri-to-ct.git
 
-## Data
+## Create a dataset
+
+This program requires the following 3D volumes for each subject: CT, pseudo-CT, MRI, and skull mask.
+CT and MRI are raw volumes that can be retrieved with your own acquisition routine.
+Pseudo-CT can be obtained using program XX [1]
+The skull mask should be obtained with Freesurfer's segmentation tool SAMSEG [2].
 
 In the folder ``` /data/raw_data ```, create a folder for each subject containing 4 NIfTI files:
 
@@ -39,4 +44,5 @@ In the folder ``` /data/raw_data ```, create a folder for each subject containin
 
 ## References
 
-
+[1] Izquierdo-Garcia, D., Hansen, A. E., Förster, S., Benoit, D., Schachoff, S., Fürst, S., ... & Catana, C. (2014). An SPM8-based approach for attenuation correction combining segmentation and nonrigid template formation: application to simultaneous PET/MR brain imaging. Journal of Nuclear Medicine, 55(11), 1825-1830.
+[2] Puonti, O., Iglesias, J. E., & Van Leemput, K. (2016). Fast and sequence-adaptive whole-brain segmentation using parametric Bayesian modeling. NeuroImage, 143, 235-249.
