@@ -45,4 +45,5 @@ In the folder ``` /data/raw_data ```, create a folder for each subject containin
 ## References
 
 [1] Izquierdo-Garcia, D., Hansen, A. E., Förster, S., Benoit, D., Schachoff, S., Fürst, S., ... & Catana, C. (2014). An SPM8-based approach for attenuation correction combining segmentation and nonrigid template formation: application to simultaneous PET/MR brain imaging. Journal of Nuclear Medicine, 55(11), 1825-1830.
+
 [2] Puonti, O., Iglesias, J. E., & Van Leemput, K. (2016). Fast and sequence-adaptive whole-brain segmentation using parametric Bayesian modeling. NeuroImage, 143, 235-249.
