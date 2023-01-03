@@ -1,6 +1,6 @@
 # mri-to-ct
 
-![alt-text][banner_repo.PNG]
+![alt text](banner_repo.PNG)
 
 ## Introduction
 
