@@ -6,25 +6,13 @@
 
 This repo contains the code from paper XXX. This guide is here to help you run the code on your device, and train a MRI-to-CT translation model. If you intend to use this program for your research, use the citation below:
 
-    @article{lundervold2019overview,
-      title={An overview of deep learning in medical imaging focusing on MRI},
-      author={Lundervold, Alexander Selvikv{\aa}g and Lundervold, Arvid},
-      journal={Zeitschrift f{\"u}r Medizinische Physik},
-      volume={29},
-      number={2},
-      pages={102--127},
-      year={2019},
-      publisher={Elsevier}
-    }
+    @article{}
 
-## Prerequesites
+## Dependencies
 
-Make sure your Python environment verifies:
-    
-    Python >= 3.9
-    Tensorflow >= 2.8.0
-    CUDA >= 11.2
-    cudnn >= XX
+Create a new Python environment. To retrieve packages, run:
+
+    pip install -r requirements.txt
 
 ## Download
 
@@ -34,7 +22,7 @@ Make sure your Python environment verifies:
 
 This program requires the following 3D volumes for each subject: CT, pseudo-CT, MRI, and skull mask.
 CT and MRI are raw volumes that can be retrieved with your own acquisition routine.
-Pseudo-CT can be obtained using program XX [1]
+Pseudo-CT can be obtained using SPM8-method [1].
 The skull mask should be obtained with Freesurfer's segmentation tool SAMSEG [2].
 
 In the folder ``` /data/raw_data ```, create a folder for each subject containing 4 NIfTI files:
