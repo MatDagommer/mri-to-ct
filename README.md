@@ -1,12 +1,19 @@
-# mri-to-ct
+# Welcome to mri-to-ct!
+
+This project was conducted at the A. A. Martinos Center for Biomedical Imaging, Harvard Medical School, under the supervision of Prof. Bastien Guerin. 
+
+In mri-to-ct, magnetic resonance images of the skull are converted into porosity maps using an image-to-image deep learning translation framework. Porosity maps are typically computed from CT scans, which are not always available in clinical trials due to the risks associated with exposure to ionizing radiation. mri-to-ct provides an accurate, time-efficient way to extract these maps from MR images, resulting in less inconvenience for scientists and patients alike. We believe this tool addresses a need in the neuromodulation community where porosity maps are needed to predict the propagation of acoustic waves through the skull. This project is based on previous work by [Koh et al.](https://ieeexplore.ieee.org/document/9513594). In this study, we explored different DL structures and hyperparameters in a systematic way. We also propose an original training method, backpropagation in the mask, which restricts the learning task to skull voxels, and is enabled by skull-segmentation tool [SAMSEG](https://surfer.nmr.mgh.harvard.edu/fswiki/Samseg).
+
+## Architecture
+
+The deep learning framework relies on a Generative Adversarial Network (GAN). After training, we use the generator (GEN) for porosity map inference, with MR images as inputs. In the study, we trained models compatible with either 2D or 3D images.
 
 ![alt text](banner_repo.PNG)
 
-## Introduction
 
-This repo contains the code from paper XXX. This guide is here to help you run the code on your device, and train a MRI-to-CT translation model. If you intend to use this program for your research, use the citation below:
+<!-- This repo contains the code from paper XXX. This guide is here to help you run the code on your device, and train a MRI-to-CT translation model. If you intend to use this program for your research, use the citation below:
 
-    @article{}
+    @article{} -->
 
 ## Dependencies
 
